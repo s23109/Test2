@@ -52,7 +52,7 @@ namespace Test2.Controllers
                     return Forbid();
                 }
 
-                //"Błąd przy usuwaniu rekordów"
+                //"Błąd przy usuwaniu rekordów - transakcja"
                 return Problem();
             }
         }
