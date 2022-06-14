@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,9 @@ namespace Test2.Services
     interface IMusicService
     {
 
-        AlbumDto GetAlbum(int idAlbum);
+        Task<AlbumDto> GetAlbum(int idAlbum);
+
+        Task DeleteMusician(int idMusician);
 
     }
 }
