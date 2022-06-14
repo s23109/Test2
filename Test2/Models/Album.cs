@@ -18,5 +18,9 @@ namespace Test2.Models
         
         public int IdMusicLabel { get; set; }
 
+        public virtual IEnumerable<Track> Track { get; set; }
+
+        public virtual MusicLabel MusicLabel { get; set; }
+
     }
 }

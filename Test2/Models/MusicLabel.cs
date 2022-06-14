@@ -13,5 +13,7 @@ namespace Test2.Models
         [MaxLength(50)]
         public string Name { get; set; }
 
+        public virtual IEnumerable<Album> Album { get; set; }
+
     }
 }

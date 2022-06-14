@@ -16,5 +16,6 @@ namespace Test2.Models
         [MaxLength(20)]
         public string? NickName { get; set; }
 
+        public virtual IEnumerable<Musician_Track> Musician_Track { get; set; }
     }
 }

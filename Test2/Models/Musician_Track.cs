@@ -12,5 +12,9 @@ namespace Test2.Models
 
         public int IdMusician { get; set; }
 
+        public virtual Musician Musician { get; set; }
+
+        public virtual Track Track { get; set; }
+
     }
 }
