@@ -19,6 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="DTOs\" />
+    <Folder Include="Services\" />
     <Folder Include="Notki\" />
   </ItemGroup>
 
